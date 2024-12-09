@@ -104,5 +104,7 @@ def read_file(file: BytesIO) -> File:
         return PdfFile.from_bytes(file)
     elif file.name.lower().endswith(".txt"):
         return TxtFile.from_bytes(file)
+    elif file.name.lower().endswith(".csv"):
+        return TxtFile.from_bytes(file)
     else:
         raise NotImplementedError(f"File type {file.name.split('.')[-1]} not supported")
