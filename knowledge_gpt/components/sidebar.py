@@ -29,7 +29,7 @@ def sidebar():
         # st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "📖YARS AI allows you to ask questions about your "
+            "📖Trinity AI allows you to ask questions about your "
             "documents and get accurate answers with instant citations. "
         )
 
