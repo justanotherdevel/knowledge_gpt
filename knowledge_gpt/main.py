@@ -26,8 +26,8 @@ MODEL_LIST = ["gpt-4o-mini","gpt-3.5-turbo", "gpt-4"]
 # Uncomment to enable debug mode
 # MODEL_LIST.insert(0, "debug")
 
-st.set_page_config(page_title="Green Credit AI", page_icon="📖", layout="wide")
-st.header("📖Green Credit AI")
+st.set_page_config(page_title="NHAI AI", page_icon="📖", layout="wide")
+st.header("📖NHAI AI")
 
 # Enable caching for expensive functions
 bootstrap_caching()

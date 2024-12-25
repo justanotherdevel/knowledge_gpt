@@ -29,7 +29,7 @@ def sidebar():
         # st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "📖Green Credit AI allows you to ask questions about your "
+            "📖NHAI AI allows you to ask questions about your "
             "documents and get accurate answers with instant citations. "
         )
 
